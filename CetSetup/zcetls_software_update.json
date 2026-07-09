@@ -1,0 +1,88 @@
+{
+	"CetCANTestTool-Setup": {
+		"RemoteUpdate": true,
+		"Author": "CetXiyuan",
+		"LatestVersion": "正式版 V3.5.0",
+		"UpdateTime": "(2024-04-07)",
+	  	"ReleaseNote": " 1. (V1.3.1.192)添加升级库采用https的请求(使用nginx作为代理)\t\n 2. (V1.3.2)添加共享库DLL加载(精简软件大小)\t\n 3. 更新升级库支持GitHub服务器和CetWeb服务检查升级\t\n 4. 添加支持公有许可服务(服务器自动生成)\t\n 5. (V3.5.0)许可3.0插件包更新(重要更新)\t\t\n",
+	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
+	  	"installCommand": "powershell -command \"(Get-Item CetCANTestTool.exe).VersionInfo | Format-List *\"",
+	  	"promptMessage": "5> Welcome to CetTools Utility Software, designed by CetXiyuan!"
+	},
+	"CetDevelopmentKit-Setup": {
+		"RemoteUpdate": true,
+		"Author": "CetXiyuan",
+		"LatestVersion": "正式版 V2.5.0",
+		"UpdateTime": "(2024-04-07)",
+	  	"ReleaseNote": " 1. Cet开发集成工具包小助手\t\n 2. 修改支持使用ADB通过压缩包导出设备指定路径下的数据\t\t\n 3. 修复手动激活没有保存许可到文件\t\n 4. CetCommandLineTool工具的引入\t\n 5. (V2.5.0)许可3.0插件包更新(重要更新)\t\t\n",
+	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
+	  	"installCommand": "powershell -command \"(Get-Item CetDevelopmentKit.exe).VersionInfo | Format-List *\"",
+	  	"promptMessage": "5> Welcome to CetTools Utility Software, designed by CetXiyuan!"
+	},
+	"CetVehicleCollector-Setup": {
+		"RemoteUpdate": true,
+		"Author": "CetXiyuan",
+		"LatestVersion": "正式版 V2.5.0",
+		"UpdateTime": "(2024-04-08)",
+	  	"ReleaseNote": " 1. Cet开发集成工具包小助手\t\n 2. 修改支持使用ADB通过压缩包导出设备指定路径下的数据\t\t\n 3. 修复手动激活没有保存许可到文件\t\n 4. CetCommandLineTool工具的引入\t\n 5. GBK和UTF-8编码启发式自适应(重要更新)\t\n 6. (V2.5.0)许可3.0插件包更新(重要更新)\t\t\n",
+	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
+	  	"installCommand": "powershell -command \"(Get-Item CetVehicleCollector.exe).VersionInfo | Format-List *\"",
+	  	"promptMessage": "5> 正式公告:\n        为保障软件合法权益，落实双休制度，本系统设定节假日\n  为强制休息时段，届时软件服务将暂停使用。\n  感谢您的理解与配合。"
+	},
+	"CetDiagnosticInstrument-Setup": {
+		"RemoteUpdate": true,
+		"Author": "CetXiyuan",
+		"LatestVersion": "正式版 V4.5.0",
+		"UpdateTime": "(2024-04-07)",
+	  	"ReleaseNote": " 1. (V2.1.3.193)添加升级库采用https的请求(使用nginx作为代理)\t\n 2. (V2.1.4)添加共享库DLL加载(精简软件大小)\t\n 3. 更新升级库支持GitHub服务器和CetWeb服务检查升级\t\n 4. 添加支持公有许可服务(服务器自动生成)\t\n 5. (V4.5.0)许可3.0插件包更新(重要更新)\t\t\n",
+	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
+	  	"installCommand": "powershell -command \"(Get-Item CetDiagnosticInstrument.exe).VersionInfo | Format-List *\"",
+	  	"promptMessage": "5> Welcome to CetTools Utility Software, designed by CetXiyuan!"
+	},
+	"CetNetworkTester-Setup": {
+		"RemoteUpdate": true,
+		"Author": "CetXiyuan",
+		"LatestVersion": "正式版 V3.5.0",
+		"UpdateTime": "(2024-04-07)",
+	  	"ReleaseNote": " 1. (V1.2.3.193)添加升级库采用https的请求(使用nginx作为代理)\t\n 2. (V1.2.4)添加共享库DLL加载(精简软件大小)\t\n 3. 更新升级库支持GitHub服务器和CetWeb服务检查升级\t\n 4. 添加支持公有许可服务(服务器自动生成)\t\n 5. (V3.5.0)许可3.0插件包更新(重要更新)\t\t\n",
+	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
+	  	"installCommand": "powershell -command \"(Get-Item CetNetworkTester.exe).VersionInfo | Format-List *\"",
+	  	"promptMessage": "5> 正式公告:\n        为保障软件合法权益，落实双休制度，本系统设定节假日\n  为强制休息时段，届时软件服务将暂停使用。\n  感谢您的理解与配合。"
+	},
+	"CetSimulateEcu-Setup": {
+		"RemoteUpdate": true,
+		"Author": "CetXiyuan",
+		"LatestVersion": "正式版 V5.5.0",
+		"UpdateTime": "(2024-04-07)",
+	  	"ReleaseNote": " 1. (V2.0.5.193)添加升级库采用https的请求(使用nginx作为代理)\t\n 2. (V2.0.6)添加共享库DLL加载(精简软件大小)\t\n 3. 更新升级库支持GitHub服务器和CetWeb服务检查升级\t\n 4. 添加支持公有许可服务(服务器自动生成)\t\n 5. (V5.5.0)许可3.0插件包更新(重要更新)\t\t\n",
+	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
+	  	"installCommand": "powershell -command \"(Get-Item CetSimulateEcu.exe).VersionInfo | Format-List *\"",
+	  	"promptMessage": "5> 正式公告:\n        为保障软件合法权益，落实双休制度，本系统设定节假日\n  为强制休息时段，届时软件服务将暂停使用。\n  感谢您的理解与配合。"
+	},
+	"CetSScom-Setup": {
+		"RemoteUpdate": true,
+		"Author": "CetXiyuan",
+		"LatestVersion": "正式版 V5.5.0",
+		"UpdateTime": "(2024-04-07)",
+	  	"ReleaseNote": " 1. (V2.7.7.192)添加升级库采用https的请求(使用nginx作为代理)\t\n 2. (V2.8.0)添加共享库DLL加载(精简软件大小)\t\n 3. 更新升级库支持GitHub服务器和CetWeb服务检查升级\t\n 4. 添加支持公有许可服务(服务器自动生成)\t\n 5. GBK和UTF-8编码启发式自适应(重要更新)\t\n 6. (V5.5.0)许可3.0插件包更新(重要更新)\t\t\n",
+	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
+	  	"installCommand": "powershell -command \"(Get-Item CetSScom.exe).VersionInfo | Format-List *\"",
+	  	"promptMessage": "5> 正式公告:\n        为保障软件合法权益，落实双休制度，本系统设定节假日\n  为强制休息时段，届时软件服务将暂停使用。\n  感谢您的理解与配合。"
+	},
+	"CetCryptoToolkit-Setup": {
+		"RemoteUpdate": true,
+		"Author": "CetXiyuan",
+		"LatestVersion": "正式版 V2.5.0",
+		"UpdateTime": "(2024-04-07)",
+	  	"ReleaseNote": " 1. OPENSSL加密工具(支持国密SM2及验签等)\t\n 2. CetCommandLineTool工具的引入\t\n 3. 更新许可管理(加载自清空许可码)\t\n 4. 添加终端证书颁发者指示功能\t\n 5. 修复远程升级功能容易失败问题(V2.3.2)\t\n 6. (V2.5.0)许可3.0插件包更新(重要更新)\t\t\n",
+	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
+	  	"installCommand": "powershell -command \"(Get-Item CetSScom.exe).VersionInfo | Format-List *\"",
+	  	"promptMessage": "5> 正式公告:\n        为保障软件合法权益，落实双休制度，本系统设定节假日\n  为强制休息时段，届时软件服务将暂停使用。\n  感谢您的理解与配合。"
+	},
+	"CetTestCommands": {
+		"installCommand1": "powershell -command Stop-Process -Name \"CetSScom\" -Force",
+		"installCommand2": "powershell -command \"(Get-Item CetSScom.exe).VersionInfo | Format-List *\"",
+		"installCommand3": "",
+		"installCommand4": ""
+	}
+}

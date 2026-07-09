@@ -1,0 +1,6 @@
+# 我的配置
+/.*
+!.gitignore
+!.gitattributes
+/CetSetup/zcetls_software_update.zip
+/CetLicense/zcetls_software_auth.zip

@@ -72,7 +72,7 @@
 	"CetCryptoToolkit-Setup": {
 		"RemoteUpdate": true,
 		"Author": "CetXiyuan",
-		"LatestVersion": "正式版 V2.5.0",
+		"LatestVersion": "补丁包 V2.12.25.7131",
 		"UpdateTime": "(2024-04-07)",
 	  	"ReleaseNote": " 1. OPENSSL加密工具(支持国密SM2及验签等)\t\n 2. CetCommandLineTool工具的引入\t\n 3. 更新许可管理(加载自清空许可码)\t\n 4. 添加终端证书颁发者指示功能\t\n 5. 修复远程升级功能容易失败问题(V2.3.2)\t\n 6. (V2.5.0)许可3.0插件包更新(重要更新)\t\t\n",
 	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",

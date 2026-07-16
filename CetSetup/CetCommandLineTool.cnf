@@ -3,4 +3,3 @@ CetCommandLineTool.exe -h
 
 # 第二个命令是未在授权表中执行
 # CetCommandLineTool.exe -d ./LICENSE/license
-CetCommandLineTool.exe -h

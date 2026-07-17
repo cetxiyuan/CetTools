@@ -2,7 +2,7 @@
 	"CetCANTestTool-Setup": {
 		"RemoteUpdate": true,
 		"Author": "CetXiyuan",
-		"LatestVersion": "补丁包 V3.5.0.7152",
+		"LatestVersion": "补丁包 V3.5.0.7171",
 		"UpdateTime": "(2024-04-07)",
 	  	"ReleaseNote": " 1. (V1.3.1.192)添加升级库采用https的请求(使用nginx作为代理)\t\n 2. (V1.3.2)添加共享库DLL加载(精简软件大小)\t\n 3. 更新升级库支持GitHub服务器和CetWeb服务检查升级\t\n 4. 添加支持公有许可服务(服务器自动生成)\t\n 5. (V3.5.0)许可3.0插件包更新(重要更新)\t\t\n",
 	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",
@@ -12,7 +12,7 @@
 	"CetDevelopmentKit-Setup": {
 		"RemoteUpdate": true,
 		"Author": "CetXiyuan",
-		"LatestVersion": "补丁包 V2.5.0.7152",
+		"LatestVersion": "补丁包 V2.5.0.7171",
 		"UpdateTime": "(2024-04-07)",
 	  	"ReleaseNote": " 1. Cet开发集成工具包小助手\t\n 2. 修改支持使用ADB通过压缩包导出设备指定路径下的数据\t\t\n 3. 修复手动激活没有保存许可到文件\t\n 4. CetCommandLineTool工具的引入\t\n 5. (V2.5.0)许可3.0插件包更新(重要更新)\t\t\n",
 	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",

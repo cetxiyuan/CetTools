@@ -48,7 +48,3 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### 授权机制
 
 `.clic` 文件由服务器自动生成，用户安装后自动加载，无需手动激活。`LicPublic.cnf` 记录各工具名称到授权文件路径的映射。
-
-### Git pre-push 钩子
-
-`pre-push` 钩子在推送前统计 AI/人工代码贡献行数并上报内部监控服务器。`cxy_git-ai_path_filter.sh` 定义跳过上报的路径（`cetqtlearn`、`CetToolsRelease` 等）。

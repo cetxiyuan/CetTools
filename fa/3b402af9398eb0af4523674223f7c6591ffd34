@@ -1,0 +1,20 @@
+README.md
+  s_b72046a21b4f86::t_98088313543078 13,17-19,38-45,50-51
+  s_b72046a21b4f86::t_184f8981503836 21-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "fa3b402af9398eb0af4523674223f7c6591ffd34",
+  "prompts": {},
+  "sessions": {
+    "s_b72046a21b4f86": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1b0341a2-8d7f-498b-b061-516ea17225f1",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

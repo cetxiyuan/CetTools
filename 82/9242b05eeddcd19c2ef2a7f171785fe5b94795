@@ -1,0 +1,34 @@
+CetMiscs/CetToolCompile_Q5152.bat
+  h_4cdc3a33375439 1-83
+CetMiscs/CetToolCompile_Q599.bat
+  h_4cdc3a33375439 1-83
+CetMiscs/CetToolGenRelease_Q5152.bat
+  h_4cdc3a33375439 1-135
+CetMiscs/CetToolGenRelease_Q599.bat
+  h_4cdc3a33375439 1-121
+CetMiscs/YXCetDLLsCopy.bat
+  h_4cdc3a33375439 1-36
+CetMiscs/YXCetToolsCopy.bat
+  h_4cdc3a33375439 1-26
+CetMiscs/YXCetToolsPack.bat
+  h_4cdc3a33375439 1-172
+CetMiscs/cxy_git-ai_path_filter.sh
+  h_4cdc3a33375439 1-33
+CetMiscs/cxy_git_pull_all.ps1
+  h_4cdc3a33375439 1-77
+CetMiscs/cxy_git_pull_all_run.bat
+  h_4cdc3a33375439 1-9
+CetMiscs/pre-push
+  h_4cdc3a33375439 1-97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "829242b05eeddcd19c2ef2a7f171785fe5b94795",
+  "prompts": {},
+  "humans": {
+    "h_4cdc3a33375439": {
+      "author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

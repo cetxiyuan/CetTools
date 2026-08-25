@@ -1,0 +1,20 @@
+[LicBasicCfg]
+expireDate=2026-11-24 00:00:00
+
+[LicPIDCfg]
+PID1_NAME=CetCANTestTool360
+PID1_PATH=F:\\sharefolder\\cetqtlearn\\CetCANTestTool\\CetCANTestTool-Release\\LICENSE\\license
+PID2_NAME=CetDevelopmentKit260
+PID2_PATH=F:\\sharefolder\\cetqtlearn\\CetDevelopmentKit\\CetDevelopmentKit-Release\\LICENSE\\license
+PID3_NAME=CetDiagnosticInstrument460
+PID3_PATH=F:\\sharefolder\\cetqtlearn\\CetDiagnosticInstrument\\CetDiagnosticInstrument-Release\\LICENSE\\license
+PID4_NAME=CetNetworkTester360
+PID4_PATH=F:\\sharefolder\\cetqtlearn\\CetNetworkTester\\CetNetworkTester-Release\\LICENSE\\license
+PID5_NAME=CetSimulateEcu560
+PID5_PATH=F:\\sharefolder\\cetqtlearn\\CetSimulateEcu\\CetSimulateEcu-Release\\LICENSE\\license
+PID6_NAME=CetSScom560
+PID6_PATH=F:\\sharefolder\\cetqtlearn\\CetSScom\\CetSScom-Release\\LICENSE\\license
+PID7_NAME=CetVehicleCollector260
+PID7_PATH=F:\\sharefolder\\cetqtlearn\\CetVehicleCollector\\CetVehicleCollector-Release\\LICENSE\\license
+PID8_NAME=CetCryptoToolkit260
+PID8_PATH=F:\\sharefolder\\cetqtlearn\\CetCryptoToolkit\\CetCryptoToolkit-Release\\LICENSE\\license

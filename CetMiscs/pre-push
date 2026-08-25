@@ -1,0 +1,97 @@
+#!/bin/bash
+
+# pre-push 钩子从标准输入读取：<local ref> <local sha> <remote ref> <remote sha>
+read local_ref local_sha remote_ref remote_sha
+
+# local_sha 为空时（无新提交），直接退出
+[ -z "$local_sha" ] && exit 0
+
+# ================ 调用路径过滤脚本 ================
+F:\\sharefolder\\CetToolsRelease\\CetTools\\cxy_git-ai_path_filter.sh && exit 0
+# ================ 原有上报逻辑 ================
+
+code_server_url="http://172.16.1.135:6039/monitor/gitlab/webhook/receiveNotes"
+
+# 获取仓库上下文信息
+repo_url=$(git config --get remote.origin.url)
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+
+# 确定提交范围：remote_sha 为全0时表示新分支，取所有提交
+if echo "$remote_sha" | grep -q '^0*$'; then
+    commit_range="$local_sha"
+    commits=$(git rev-list --reverse "$local_sha")
+else
+    commit_range="$remote_sha..$local_sha"
+    commits=$(git rev-list --reverse "$remote_sha..$local_sha")
+fi
+
+# 遍历每个待推送的 commit，逐个上报
+for sha in $commits; do
+
+    # 1. 获取本次提交实际变更行数
+    stat_output=$(git show --shortstat --format="" "$sha" 2>/dev/null)
+    additions=$(echo "$stat_output" | grep -o '[0-9]* insertion' | grep -o '[0-9]*')
+    deletions=$(echo "$stat_output" | grep -o '[0-9]* deletion' | grep -o '[0-9]*')
+    [ -z "$additions" ] && additions=0
+    [ -z "$deletions" ] && deletions=0
+
+    # 2. 获取提交作者信息（从 commit 记录读取）
+    author_name=$(git show -s --format='%an' "$sha")
+    author_email=$(git show -s --format='%ae' "$sha")
+
+    # 3. 用 git-ai stats --json 获取本次提交的准确 AI 归因数据
+    ai_stats=$(git-ai stats "$sha" --json 2>/dev/null)
+
+    if [ -n "$ai_stats" ]; then
+        ai_additions=$(echo "$ai_stats"    | grep -o '"ai_additions":[0-9]*'      | head -1 | grep -o '[0-9]*')
+        ai_deletions=$(echo "$ai_stats"    | grep -o '"total_ai_deletions":[0-9]*' | head -1 | grep -o '[0-9]*')
+        human_additions=$(echo "$ai_stats" | grep -o '"human_additions":[0-9]*'    | head -1 | grep -o '[0-9]*')
+        ai_accepted=$(echo "$ai_stats"     | grep -o '"ai_accepted":[0-9]*'        | head -1 | grep -o '[0-9]*')
+        last_key=$(echo "$ai_stats" | grep -o '"[a-zA-Z][^"]*::[^"]*"' | tail -1 | tr -d '"')
+        ai_tool=$(echo "$last_key" | sed 's/:.*//')
+        ai_model=$(echo "$last_key" | sed 's/[^:]*:://')
+    else
+        ai_additions=0
+        ai_deletions=0
+        human_additions=$additions
+        ai_accepted=0
+        ai_tool=""
+        ai_model=""
+    fi
+
+    # 4. 从 git notes 提取 agent_id 各字段
+    notes_oneline=$(git notes --ref=ai show "$sha" 2>/dev/null | tr -d '\n' | tr -s ' ')
+    if [ -n "$notes_oneline" ]; then
+        agent_tool=$(echo "$notes_oneline"   | grep -o '"tool": *"[^"]*"'  | head -1 | grep -o '"[^"]*"$' | tr -d '"')
+        agent_id_val=$(echo "$notes_oneline" | grep -o '"id": *"[^"]*"'    | head -1 | grep -o '"[^"]*"$' | tr -d '"')
+        agent_model=$(echo "$notes_oneline"  | grep -o '"model": *"[^"]*"' | head -1 | grep -o '"[^"]*"$' | tr -d '"')
+    else
+        agent_tool=""
+        agent_id_val=""
+        agent_model=""
+    fi
+
+    # 5. 根据 ai_additions 判断提交类型
+    if [ "$ai_additions" -gt 0 ] && [ "$human_additions" -gt 0 ]; then
+        echo "--- [$sha] 混合提交（AI+人工），发送到监控服务器 ---"
+        commit_type="mixed"
+    elif [ "$ai_additions" -gt 0 ]; then
+        echo "--- [$sha] 检测到 AI 提交，发送到监控服务器 ---"
+        commit_type="ai"
+    else
+        echo "--- [$sha] 手动提交，发送到监控服务器 ---"
+        commit_type="manual"
+    fi
+
+    # 6. 构建 payload 并发送
+    payload="{\"commit\":\"$sha\",\"type\":\"$commit_type\",\"repo_url\":\"$repo_url\",\"branch\":\"$branch_name\",\"additions\":$additions,\"deletions\":$deletions,\"ai_additions\":$ai_additions,\"ai_deletions\":$ai_deletions,\"human_additions\":$human_additions,\"ai_accepted\":$ai_accepted,\"ai_tool\":\"$ai_tool\",\"ai_model\":\"$ai_model\",\"agent_tool\":\"$agent_tool\",\"agent_id\":\"$agent_id_val\",\"agent_model\":\"$agent_model\",\"author_name\":\"$author_name\",\"author_email\":\"$author_email\"}"
+
+    echo -n "$payload" | curl -s -X POST -H "Content-Type: application/json; charset=utf-8" \
+         --data-binary @- \
+         $code_server_url
+    echo ""
+
+done
+
+# 总是允许 git push 继续
+exit 0

@@ -1,0 +1,19 @@
+CetSetup/zcetls_software_update.json
+  s_9c42092292785c::t_bd100c64f1e8fc 1-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "8dd96219151387a5b06a36e7142589298b991742",
+  "prompts": {},
+  "sessions": {
+    "s_9c42092292785c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28f4e4fd-85fd-4956-b86b-4578f410873b",
+        "model": "glm-5.3"
+      },
+      "human_author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

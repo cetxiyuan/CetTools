@@ -1,0 +1,19 @@
+CLAUDE.md
+  s_b72046a21b4f86::t_261bec77df505d 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "9095ef7875f6786421f77dc282d92208d0952618",
+  "prompts": {},
+  "sessions": {
+    "s_b72046a21b4f86": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1b0341a2-8d7f-498b-b061-516ea17225f1",
+        "model": "unknown"
+      },
+      "human_author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

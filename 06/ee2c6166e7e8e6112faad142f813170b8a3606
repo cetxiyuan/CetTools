@@ -1,0 +1,37 @@
+CetLicense/CetCANTestTool360_PUBLIC.clic
+  s_72fb82aba9e8d8::t_3f9d7ea85a4b2f 1-6
+CetLicense/CetCryptoToolkit260_PUBLIC.clic
+  s_72fb82aba9e8d8::t_3ff748fc7f39c5 1-6
+CetLicense/CetDevelopmentKit260_PUBLIC.clic
+  s_72fb82aba9e8d8::t_5972eb6e475eed 1-6
+CetLicense/CetDiagnosticInstrument460_PUBLIC.clic
+  s_72fb82aba9e8d8::t_32ae4be1fcbe88 1-6
+CetLicense/CetNetworkTester360_PUBLIC.clic
+  s_72fb82aba9e8d8::t_17d325efa483db 1-6
+CetLicense/CetSScom560_PUBLIC.clic
+  s_72fb82aba9e8d8::t_f3bf3dc78ed30e 1-6
+CetLicense/CetSimulateEcu560_PUBLIC.clic
+  s_72fb82aba9e8d8::t_02a1abc3fb4bf6 1-6
+CetLicense/CetVehicleCollector260_PUBLIC.clic
+  s_72fb82aba9e8d8::t_ea3f8ad05d9e3d 1-6
+CetLicense/LicPublic.cnf
+  s_72fb82aba9e8d8::t_a9ba7922c00a7b 1-20
+CetLicense/zcetls_software_auth.cxy
+  s_72fb82aba9e8d8::t_b549d1340e4bb7 1-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "06ee2c6166e7e8e6112faad142f813170b8a3606",
+  "prompts": {},
+  "sessions": {
+    "s_72fb82aba9e8d8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a03feef9-e220-4bac-a2b6-e3c9719d0cd7",
+        "model": "glm-5.3"
+      },
+      "human_author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

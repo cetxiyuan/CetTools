@@ -13,13 +13,14 @@ cetxiyuan|192.168.0.106|D0:AD:08:53:AD:CA|CetSScom,CetSimulateEcu,CetNetworkTest
 赖荣东|172.16.90.85|00:E0:70:E1:84:51|CetSScom|1751370546439|22|允许
 赖荣东-1|172.16.90.85|30:B4:9E:8C:EE:B9|CetSScom|1751370546439|0|停用
 张汉良|172.16.90.172|08:E0:4C:36:03:D8|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1751359149395|163|允许
-张汉良-1|172.16.90.172|88:AE:DD:5F:D0:CD|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1751359149395|0|允许
+张汉良-1|172.16.90.172|88:AE:DD:5F:D0:CD|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1751359149395|0|停用
+张汉良-2|168.254.80.41|08:8F:C3:7D:65:19|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|0|0|允许
 李伟铭|172.16.50.46|E0:BE:03:99:06:46|CetSScom,CetVehicleCollector|0|0|允许
 连海雄|172.16.90.123|88:AE:DD:97:24:61|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|1751276958947|11|允许
 陈基景|172.16.90.170|08:BF:B8:BA:4E:07|CetSScom|1747029253462|5|允许
 陈基景-1|192.168.56.1|0A:00:27:00:00:0A|CetSScom|1750250699989|3|停用
-陈基景-2|192.168.56.1|F4:A8:0D:BA:89:DE|CetSScom,CetNetworkTester,CetVehicleCollector|0|0|临时
-陈基景-3|192.168.56.1|0A:00:27:00:00:14|CetSScom,CetNetworkTester,CetVehicleCollector|0|0|临时
+陈基景-2|192.168.56.1|F4:A8:0D:BA:89:DE|CetSScom,CetNetworkTester,CetVehicleCollector|0|0|允许
+陈基景-3|192.168.56.1|0A:00:27:00:00:14|CetSScom,CetNetworkTester,CetVehicleCollector|0|0|允许
 蔡振宁|172.16.90.61|E0:BE:03:99:06:5E|CetSScom,CetSimulateEcu,CetVehicleCollector|1750243865396|2875|允许
 傅玉珑|172.16.30.37|88:AE:DD:5F:51:8C|CetSScom,CetSimulateEcu,CetNetworkTester|1750229707331|14|允许
 孙雄鹰|172.16.90.137|00:E0:70:E1:81:A8|CetSScom|1749451498210|2878|允许
@@ -27,7 +28,6 @@ cetxiyuan|192.168.0.106|D0:AD:08:53:AD:CA|CetSScom,CetSimulateEcu,CetNetworkTest
 陈金松|172.16.90.51|00:E0:70:E1:78:8F|CetSScom|1746693402705|2838|允许
 何荣顺|172.16.90.126|F4:F1:9E:20:30:14|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|0|0|允许
 何荣顺-1|192.168.56.1|9C:5A:44:38:B1:B6|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|0|0|停用
-何荣顺-2|169.254.148.73|08:8F:C3:7D:65:19|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|0|0|停用
 李业丹|10.10.30.94|58:11:22:D0:51:F8|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|0|0|允许
 李业丹-1|10.10.30.94|00:FF:F1:2D:E0:D2|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|0|0|停用
 江燕|172.16.90.130|94:C6:91:58:28:27|CetSScom|0|1|允许

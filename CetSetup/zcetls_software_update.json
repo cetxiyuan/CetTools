@@ -62,7 +62,7 @@
 	"CetSScom-Setup": {
 		"RemoteUpdate": true,
 		"Author": "CetXiyuan",
-		"LatestVersion": "补丁包 V5.6.0.8281",
+		"LatestVersion": "补丁包 V5.6.0.9012",
 		"UpdateTime": "(2026-08-23)",
 	  	"ReleaseNote": " 1. (V2.7.7.192)添加升级库采用https的请求(使用nginx作为代理)\t\n 2. (V2.8.0)添加共享库DLL加载(精简软件大小)\t\n 3. 更新升级库支持GitHub服务器和CetWeb服务检查升级\t\n 4. 添加支持公有许可服务(服务器自动生成)\t\n 5. GBK和UTF-8编码启发式自适应(重要更新)\t\n 6. (V5.5.0)许可3.0插件包更新(重要更新)\t\t\n",
 	  	"DownloadUrl": "https://gitee.com/api/v5/repos/cetxiyuan/CetTools/contents/CetScript/cxy_test",

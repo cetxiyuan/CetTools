@@ -1,5 +1,6 @@
 张金珍|192.168.9.160|FC:4C:EA:1A:22:E2|CetSScom,CetSimulateEcu|1751335653863|83|允许|3000-01-01
-张金珍-1|192.168.1.105|D8:12:65:5E:10:9F|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool,CetDevelopmentKit,CetDiagnosticInstrument,CetVehicleCollector|0|0|允许|3000-01-01
+张金珍-1|192.168.1.105|D8:12:65:5E:10:9F|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool|0|0|允许|3000-01-01
+张金珍-2|169.254.91.206|54:E1:AD:D1:6B:78|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool|0|0|允许|3000-01-01
 蔡升|192.168.10.1|84:BA:59:33:87:01|CetSScom,CetSimulateEcu,CetNetworkTester|0|0|允许|3000-01-01
 方耿舜|172.16.31.6|94:C6:91:57:F9:B8|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|0|0|允许|3000-01-01
 郑建宇|172.16.90.86|88:AE:DD:97:24:97|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool,CetDevelopmentKit,CetDiagnosticInstrument,CetVehicleCollector,CetCryptoToolkit|1751459898536|3047|允许|3000-01-01

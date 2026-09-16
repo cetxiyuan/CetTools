@@ -1,0 +1,19 @@
+CetLicense/zcetls_software_auth.cxy
+  s_072cffaff728de::t_699cfbb7d87052 6-10,12-13,15,17-20,22-29,31,33-34,36-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "34e450d98ddfb3f4897ec7752e19e3715d4552e9",
+  "prompts": {},
+  "sessions": {
+    "s_072cffaff728de": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "baa52959-bc6c-4aad-8d2d-c4db9a7393a3",
+        "model": "deepseek-flash"
+      },
+      "human_author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

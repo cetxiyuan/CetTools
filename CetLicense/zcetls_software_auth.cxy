@@ -14,7 +14,7 @@ cetxiyuan|192.168.0.106|D0:AD:08:53:AD:CA|CetSScom,CetSimulateEcu,CetNetworkTest
 赖荣东|172.16.90.85|00:E0:70:E1:84:51|CetSScom|1751370546439|22|允许|3000-01-01
 赖荣东-1|172.16.90.85|30:B4:9E:8C:EE:B9|CetSScom|1751370546439|0|停用|3000-01-01
 张汉良|172.16.90.172|08:E0:4C:36:03:D8|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1751359149395|163|允许|3000-01-01
-张汉良-1|172.16.90.172|88:AE:DD:5F:D0:CD|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1751359149395|0|停用|3000-01-01
+张汉良-1|172.16.90.172|88:AE:DD:5F:D0:CD|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1751359149395|0|临时|3000-01-01
 张汉良-2|168.254.80.41|08:8F:C3:7D:65:19|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|0|0|临时|2026-09-28
 李伟铭|172.16.50.46|E0:BE:03:99:06:46|CetSScom,CetVehicleCollector|0|0|允许|3000-01-01
 连海雄|172.16.90.123|88:AE:DD:97:24:61|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|1751276958947|11|允许|3000-01-01

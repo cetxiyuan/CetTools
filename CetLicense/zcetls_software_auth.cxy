@@ -9,7 +9,7 @@ cetxiyuan|192.168.0.106|D0:AD:08:53:AD:CA|CetSScom,CetSimulateEcu,CetNetworkTest
 李德龙|192.168.43.112|08:8F:C3:78:07:3E|CetSScom|1751506102752|63|允许|3000-01-01
 叶鹏飞|172.16.31.247|00:E0:70:BE:4C:01|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|1751359149395|0|允许|3000-01-01
 杨帆|172.16.90.175|00:E0:70:E1:7F:CB|CetSScom,CetSimulateEcu,CetVehicleCollector,CetNetworkTester|1751424612651|87|允许|3000-01-01
-杨帆-1|192.168.125.100|E4:0D:36:3F:1B:D2|CetSScom,CetNetworkTester,CetVehicleCollector|0|0|停用|3000-01-01
+杨帆-1|192.168.125.96|E4:0D:36:3F:1B:D2|CetSScom,CetNetworkTester,CetVehicleCollector|0|0|临时|3000-01-01
 钟荣木|172.16.31.10|00:E0:70:BE:48:C0|CetSScom,CetSimulateEcu,CetVehicleCollector|1751373116580|112|允许|3000-01-01
 赖荣东|172.16.90.85|00:E0:70:E1:84:51|CetSScom|1751370546439|22|允许|3000-01-01
 赖荣东-1|172.16.90.85|30:B4:9E:8C:EE:B9|CetSScom|1751370546439|0|停用|3000-01-01

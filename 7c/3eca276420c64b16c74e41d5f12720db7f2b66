@@ -1,0 +1,28 @@
+CetLicense/CetCANTestTool370_PUBLIC.clic
+  h_4cdc3a33375439 1-6
+CetLicense/CetCryptoToolkit270_PUBLIC.clic
+  h_4cdc3a33375439 1-6
+CetLicense/CetDevelopmentKit270_PUBLIC.clic
+  h_4cdc3a33375439 1-6
+CetLicense/CetDiagnosticInstrument470_PUBLIC.clic
+  h_4cdc3a33375439 1-6
+CetLicense/CetNetworkTester370_PUBLIC.clic
+  h_4cdc3a33375439 1-6
+CetLicense/CetSScom570_PUBLIC.clic
+  h_4cdc3a33375439 1-6
+CetLicense/CetSimulateEcu570_PUBLIC.clic
+  h_4cdc3a33375439 1-6
+CetLicense/CetVehicleCollector270_PUBLIC.clic
+  h_4cdc3a33375439 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7c3eca276420c64b16c74e41d5f12720db7f2b66",
+  "prompts": {},
+  "humans": {
+    "h_4cdc3a33375439": {
+      "author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

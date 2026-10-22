@@ -1,0 +1,33 @@
+CetLicense/CetCANTestTool370_PUBLIC.clic
+  s_cf570b0dc985a7::t_6adc67f09f51f3 2-3,6
+CetLicense/CetCryptoToolkit270_PUBLIC.clic
+  s_cf570b0dc985a7::t_bc0938c8412248 2-3,6
+CetLicense/CetDevelopmentKit270_PUBLIC.clic
+  s_cf570b0dc985a7::t_3ff6fb6acdad9a 2-3,6
+CetLicense/CetDiagnosticInstrument470_PUBLIC.clic
+  s_cf570b0dc985a7::t_52f170f8489efd 2-3,6
+CetLicense/CetNetworkTester370_PUBLIC.clic
+  s_cf570b0dc985a7::t_28b8f931e14e96 2-3,6
+CetLicense/CetSScom570_PUBLIC.clic
+  s_cf570b0dc985a7::t_b8155f41d62208 2-3,6
+CetLicense/CetSimulateEcu570_PUBLIC.clic
+  s_cf570b0dc985a7::t_a9570a14682034 2-3,6
+CetLicense/CetVehicleCollector270_PUBLIC.clic
+  s_cf570b0dc985a7::t_00a24be8ed9499 2-3,6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "83bad8ab7fd406cf163b4b39a720698816dbe352",
+  "prompts": {},
+  "sessions": {
+    "s_cf570b0dc985a7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "359035c7-5584-42b0-8596-60e3e0577209",
+        "model": "deepseek-v4-1-flash-260910"
+      },
+      "human_author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

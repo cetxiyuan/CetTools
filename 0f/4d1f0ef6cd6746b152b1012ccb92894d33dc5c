@@ -1,0 +1,14 @@
+CetSetup/zcetls_software_update.json
+  h_4cdc3a33375439 65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0f4d1f0ef6cd6746b152b1012ccb92894d33dc5c",
+  "prompts": {},
+  "humans": {
+    "h_4cdc3a33375439": {
+      "author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

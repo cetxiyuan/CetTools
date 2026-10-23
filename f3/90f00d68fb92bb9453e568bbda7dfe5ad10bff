@@ -1,0 +1,21 @@
+CetLicense/CetDevelopmentKit260_PUBLIC.clic
+  s_2bb3511cdc8f90::t_47bed1a016f9d6 6
+CetLicense/CetDiagnosticInstrument460_PUBLIC.clic
+  s_2bb3511cdc8f90::t_7e65f1152a428d 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f390f00d68fb92bb9453e568bbda7dfe5ad10bff",
+  "prompts": {},
+  "sessions": {
+    "s_2bb3511cdc8f90": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b3469073-692a-45e5-8abb-891604552eb1",
+        "model": "deepseek-v4-1-flash-260910"
+      },
+      "human_author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

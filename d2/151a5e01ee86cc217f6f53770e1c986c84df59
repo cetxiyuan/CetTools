@@ -1,0 +1,14 @@
+CetLicense/zcetls_software_auth.cxy
+  h_4cdc3a33375439 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d2151a5e01ee86cc217f6f53770e1c986c84df59",
+  "prompts": {},
+  "humans": {
+    "h_4cdc3a33375439": {
+      "author": "cetxiyuan <516688603@qq.com>"
+    }
+  }
+}

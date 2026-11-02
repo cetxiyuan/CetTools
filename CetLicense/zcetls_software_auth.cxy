@@ -9,7 +9,7 @@ cetxiyuan|192.168.0.106|D0:AD:08:53:AD:CA|CetSScom,CetSimulateEcu,CetNetworkTest
 张金珍|192.168.9.160|FC:4C:EA:1A:22:E2|CetSScom,CetSimulateEcu|1789783126281|85|允许|3000-01-01
 张汉良-2|168.254.80.41|08:8F:C3:7D:65:19|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|1788588295492|18|临时|2026-09-28
 邓东涛-3|172.16.30.113|E0:BE:03:99:06:D4|CetSScom|1787985964827|1|允许|3000-01-01
-张汉良-1|172.16.90.172|88:AE:DD:5F:D0:CD|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1787980882905|1|禁用|3000-01-01
+张汉良-1|172.16.90.172|88:AE:DD:5F:D0:CD|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1787980882905|1|允许|3000-01-01
 朱龙海|172.16.90.233|00:E0:70:EB:D9:07|CetSScom|1751506640623|15|允许|3000-01-01
 李德龙|192.168.43.112|08:8F:C3:78:07:3E|CetSScom|1751506102752|63|允许|3000-01-01
 郑建宇|172.16.90.86|88:AE:DD:97:24:97|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool,CetDevelopmentKit,CetDiagnosticInstrument,CetVehicleCollector,CetCryptoToolkit|1751459898536|3047|允许|3000-01-01

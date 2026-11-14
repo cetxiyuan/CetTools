@@ -1,7 +1,7 @@
 邓东涛-3|172.16.30.113|E0:BE:03:99:06:D4|CetSScom|1793850633483|2|禁用|3000-01-01
 张汉良-1|172.16.90.172|88:AE:DD:5F:D0:CD|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|1793850600581|1|禁用|3000-01-01
 蔡振宁|172.16.90.61|E0:BE:03:99:06:5E|CetSScom,CetSimulateEcu,CetVehicleCollector|1793850562740|288|禁用|3000-01-01
-张金珍|192.168.9.160|FC:4C:EA:1A:22:E2|CetSScom,CetSimulateEcu|1793850507023|87|禁用|3000-01-01
+张金珍|192.168.9.160|FC:4C:EA:1A:22:E2|CetSScom,CetSimulateEcu|1793850507023|87|允许|3000-01-01
 郑建宇|172.16.90.86|88:AE:DD:97:24:97|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool,CetDevelopmentKit,CetDiagnosticInstrument,CetVehicleCollector,CetCryptoToolkit|1793850463306|3063|禁用|3000-01-01
 邓东涛-2|172.16.30.103|88:AE:DD:5F:B2:5C|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|1793850365414|23|禁用|3000-01-01
 杨帆|172.16.90.175|00:E0:70:E1:7F:CB|CetSScom,CetSimulateEcu,CetVehicleCollector,CetNetworkTester|1793850286873|89|禁用|3000-01-01
@@ -30,12 +30,12 @@ cetxiyuan|192.168.0.106|D0:AD:08:53:AD:CA|CetSScom,CetSimulateEcu,CetNetworkTest
 孙雄鹰|172.16.90.137|00:E0:70:E1:81:A8|CetSScom|1749451498210|287|禁用|3000-01-01
 陈基景|172.16.90.170|08:BF:B8:BA:4E:07|CetSScom|1747029253462|5|禁用|3000-01-01
 陈金松|172.16.90.51|00:E0:70:E1:78:8F|CetSScom|1746693402705|283|停用|3000-01-01
-张金珍-2|169.254.91.206|54:E1:AD:D1:6B:78|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool|00|0|禁用|3000-01-01
+张金珍-2|169.254.91.206|54:E1:AD:D1:6B:78|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool|00|0|允许|3000-01-01
 林一隆|172.16.30.118|A0:AD:9F:D9:8F:A6|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|00|0|禁用|3000-01-01
 林一隆-1|169.254.233.62|B4:A9:FC:FB:C6:37|CetSScom,CetSimulateEcu,CetNetworkTester,CetVehicleCollector|00|0|禁用|3000-01-01
-张金珍-1|192.168.1.105|D8:12:65:5E:10:9F|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool|0|0|禁用|3000-01-01
-蔡升|192.168.10.1|84:BA:59:33:87:01|CetSScom,CetSimulateEcu,CetNetworkTester|0|0|禁用|3000-01-01
-方耿舜|172.16.31.6|94:C6:91:57:F9:B8|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|0|0|禁用|3000-01-01
+张金珍-1|192.168.1.105|D8:12:65:5E:10:9F|CetSScom,CetSimulateEcu,CetNetworkTester,CetCANTestTool|0|0|允许|3000-01-01
+蔡升|192.168.10.1|84:BA:59:33:87:01|CetSScom,CetSimulateEcu,CetNetworkTester|0|0|允许|3000-01-01
+方耿舜|172.16.31.6|94:C6:91:57:F9:B8|CetSScom,CetSimulateEcu,CetNetworkTester,CetDevelopmentKit,CetVehicleCollector|0|0|允许|3000-01-01
 杨帆-1|192.168.125.96|E4:0D:36:3F:1B:D2|CetSScom,CetNetworkTester,CetVehicleCollector|0|0|禁用|2026-10-30
 李伟铭|172.16.50.46|E0:BE:03:99:06:46|CetSScom,CetVehicleCollector|0|0|禁用|3000-01-01
 陈基景-2|192.168.56.1|F4:A8:0D:BA:89:DE|CetSScom,CetNetworkTester,CetVehicleCollector|0|0|禁用|2026-09-28
